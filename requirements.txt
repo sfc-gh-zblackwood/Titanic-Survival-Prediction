@@ -1,13 +1,6 @@
-# Core dependencies
-setuptools>=58.0.0          # Ensures the installation of necessary packaging tools
-
-# Machine learning model dependencies
-scikit-learn==1.3.0         # Match the model's version of scikit-learn for compatibility
-joblib==1.2.0               # Required for loading models saved using joblib
-numpy==1.23.5               # Align with scikit-learn and other numerical operations
-
-# Streamlit for the web app
-streamlit==1.3.0            # Pin Streamlit to version you're currently using
-
-# Optional, if needed for environment setup (Ubuntu, Docker, etc.)
-python3-distutils           # To resolve distutils-related errors in some environments
+setuptools>=58.0.0
+wheel
+scikit-learn==1.3.0
+joblib==1.2.0
+numpy==1.23.5 --only-binary=:all:
+streamlit
