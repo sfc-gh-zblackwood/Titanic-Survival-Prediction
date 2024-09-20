@@ -9,4 +9,7 @@ python_version = "3.9"  # Specify the Python version here
 [packages]
 numpy = "*"
 pandas = "*"
+scikit-learn = "*"
 streamlit = "*"
+matplotlib = "*"
+joblib = "*"
