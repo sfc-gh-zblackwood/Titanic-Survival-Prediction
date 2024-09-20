@@ -9,11 +9,11 @@ import os
 
 
 # Load the trained model
-# model = joblib.load('titanic_survival_model.pkl')
-import pickle
+model = joblib.load('titanic_survival_model.pkl')
+# import pickle
 
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+# with open('model.pkl', 'rb') as f:
+#     model = pickle.load(f)
 
 
 # Function to make a prediction based on user input
