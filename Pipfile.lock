@@ -1,0 +1,47 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "examplehashvalue"  // Placeholder for the actual hash
+        },
+        "version": "v1.0.0"
+    },
+    "default": {
+        "numpy": {
+            "version": "==1.25.2",
+            "hashes": [
+                "sha256:hash_for_numpy_version"  // Actual hash for version 1.25.2
+            ]
+        },
+        "pandas": {
+            "version": "==2.0.3",
+            "hashes": [
+                "sha256:hash_for_pandas_version"  // Actual hash for version 2.0.3
+            ]
+        },
+        "scikit-learn": {
+            "version": "==1.3.0",
+            "hashes": [
+                "sha256:hash_for_scikit_learn_version"  // Actual hash for version 1.3.0
+            ]
+        },
+        "streamlit": {
+            "version": "==1.28.1",
+            "hashes": [
+                "sha256:hash_for_streamlit_version"  // Actual hash for version 1.28.1
+            ]
+        },
+        "matplotlib": {
+            "version": "*",  // This will allow for any version; lock may include a specific version installed
+            "hashes": [
+                "sha256:hash_for_matplotlib_version"  // Actual hash for the installed version
+            ]
+        },
+        "joblib": {
+            "version": "==1.3.2",
+            "hashes": [
+                "sha256:hash_for_joblib_version"  // Actual hash for version 1.3.2
+            ]
+        }
+    },
+    "develop": {}
+}
