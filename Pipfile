@@ -1,0 +1,12 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.9"  # Specify the Python version here
+
+[packages]
+numpy = "*"
+pandas = "*"
+streamlit = "*"
