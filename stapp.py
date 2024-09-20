@@ -6,6 +6,7 @@ import joblib
 import pandas as pd
 import base64
 import os
+import sklearn
 
 
 # Load the trained model
