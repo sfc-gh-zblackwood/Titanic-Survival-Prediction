@@ -1,5 +1,14 @@
 # streamlit_app.py
-!pip install joblib
+import subprocess
+import sys
+
+# Check if joblib is installed; if not, install it
+try:
+    import joblib
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+
+
 import streamlit as st
 import numpy as np
 import joblib
