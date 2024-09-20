@@ -2,7 +2,7 @@
 
 import streamlit as st
 import numpy as np
-import joblib
+# import joblib
 import pandas as pd
 import base64
 import os
